@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seminar2</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="slider-container">
+      <div id="slider-images">
+        <img src="image1.jpg" alt="image1" class="slide active" />
+        <img src="image2.jpg" alt="image2" class="slide" />
+        <img src="image3.jpg" alt="image3" class="slide" />
+        <img src="image4.jpg" alt="Image4" class="slide" />
+        <img src="image5.jpg" alt="Image5" class="slide" />
+        <img src="image6.jpg" alt="Image6" class="slide" />
+      </div>
+
+      <button id="prev-btn" onclick="prevSlide()">❮</button>
+      <button id="next-btn" onclick="nextSlide()">❯</button>
+
+      <div class="dots" id="dots-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
